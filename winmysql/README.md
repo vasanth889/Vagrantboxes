@@ -34,7 +34,10 @@ Install [Oracle VM VirtualBox](http://www.oracle.com/technetwork/server-storage/
 ```
 4.Modify config.yaml and vagrantfile with appropriate name of JDK file.
 
-5.Run the Vagrantfile with below command.
+5.Modify product value in config.yaml according to the required product which going to be tested.
+(Accepted product values are apim,sp,is and ei)
+
+6.Run the Vagrantfile with below command.
 ```
   vagrant up
 ```
